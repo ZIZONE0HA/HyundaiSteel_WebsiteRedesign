@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyundiSteel</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+
+<body>
+    <p id="skipNAV" class="hide"><a href="#content">본문바로가기</a></p>
+
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+                <h1><a href="index.html"><img src="images/logo.png" alt="현대제철"></a></h1>
+
+                <div class="top-menu">
+                    <p class="search">
+                        <a href="#"><i class="xi-search"></i></a>
+                    </p>
+                    <p class="language">
+                        <a href="#">KO<i class="xi-angle-down-min"></i></a>
+                        <ul class="lan">
+                            <li><a href="#">EN</a></li>
+                            <li><a href="#">CH</a></li>
+                        </ul>
+                    </p>
+                    <p class="all-menu">
+                        <a href="#"><span></span><span></span><span></span></i></a>
+                    </p>
+                </div>
+
+                <!-- 다음에 검색창 누르면 상단에서 검색바 나오는 거랑, 메뉴 누르면 사이트맵 나오는거도 해보자규 -->
+
+                <nav class="nav">
+                    <ul class="gnb">
+                        <li class="gnb_a">
+                            <a href="sub1_company.html" alt="회사소개">회사소개</a>
+                            <ul class="sub">
+                                <li class="sub-title"><a href="sub1_company.html" alt="기업소개">기업소개</a>
+                                    <ul>
+                                        <li><a href="sub1_company.html" alt="사업소개">사업소개</a></li>
+                                        <li><a href="#" alt="연혁">연혁</a></li>
+                                        <li><a href="#" alt="국내 사업장">국내 사업장</a></li>
+                                        <li><a href="#" alt="해외 사업장">해외 사업장</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="CEO 메세지">CEO 메세지</a>
+                                    <ul>
+                                        <li><a href="#" alt="CEO 인사말">CEO 인사말</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="경영이념">경영이념</a>
+                                    <ul>
+                                        <li><a href="#" alt="비전2025">비전2025</a></li>
+                                        <li><a href="#" alt="경영철학, 핵심가치, CI">경영철학, 핵심가치, CI</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="gnb_a">
+                            <a href="sub2_product.html" alt="제품기술">제품기술</a>
+                            <ul class="sub">
+                                <li class="sub-title"><a href="#" alt="제품소개">제품소개</a>
+                                    <ul>
+                                        <li><a href="#" alt="제품군">제품군</a></li>
+                                        <li><a href="sub2_product.html" alt="전략제품">전략제품</a></li>
+                                        <li><a href="#" alt="내진강재 브랜드 H CORE">내진강재 브랜드 H CORE</a></li>
+                                        <li><a href="#" alt="자동차 솔루션 H-SOLUTION">자동차 솔루션 H-SOLUTION</a></li>
+                                        <li><a href="#" alt="인증현황">인증현황</a></li>
+                                        <li><a href="#" alt="E-Business">E-Business</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="R&D">R&D</a>
+                                    <ul>
+                                        <li><a href="#" alt="기술연구소 소개">기술연구소 소개</a></li>
+                                        <li><a href="#" alt="연구개발 분야">연구개발 분야</a></li>
+                                        <li><a href="#" alt="친환경 신기술 개발">친환경 신기술 개발</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="생산공정">생산공정</a>
+                                    <ul>
+                                        <li><a href="#" alt="고로">고로</a></li>
+                                        <li><a href="#" alt="전기로">전기로</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="제품카탈로그">제품카탈로그</a>
+                                    <ul>
+                                        <li><a href="#" alt="종합카탈로그">종합카탈로그</a></li>
+                                        <li><a href="#" alt="판재류">판재류</a></li>
+                                        <li><a href="#" alt="봉형강류">봉형강류</a></li>
+                                        <li><a href="#" alt="기타제품">기타제품</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="gnb_a">
+                            <a href="#" alt="S.H.E">S.H.E</a>
+                            <ul class="sub">
+                                <li class="sub-title"><a href="#" alt="안전">안전</a>
+                                    <ul>
+                                        <li><a href="#" alt="안전경영">안전경영</a></li>
+                                        <li><a href="#" alt="안전관리시스템">안전관리시스템</a></li>
+                                        <li><a href="#" alt="비상대응체계">비상대응체계</a></li>
+                                        <li><a href="#" alt="외주업체 안전관리시스템">외주업체 안전관리시스템</a></li>
+                                        <li><a href="#" alt="안전문화관">안전문화관</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="보건">보건</a>
+                                    <ul>
+                                        <li><a href="#" alt="쾌적한 작업환경">쾌적한 작업환경</a></li>
+                                        <li><a href="#" alt="건강관리">건강관리</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="환경">환경</a>
+                                    <ul>
+                                        <li><a href="#" alt="환경에너지경영방침">환경에너지경영방침</a></li>
+                                        <li><a href="#" alt="기후변화대응">기후변화대응</a></li>
+                                        <li><a href="#" alt="환경친화설비">환경친화설비</a></li>
+                                        <li><a href="#" alt="환경개선성과">환경개선성과</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="gnb_a">
+                            <a href="#" alt="투자정보">투자정보</a>
+                            <ul class="sub">
+                                <li class="sub-title"><a href="#" alt="주식정보">주식정보</a>
+                                    <ul>
+                                        <li><a href="#" alt="주가정보">주가정보</a></li>
+                                        <li><a href="#" alt="공시정보">공시정보</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="전자공고">전자공고</a>
+                                    <ul>
+                                        <li><a href="#" alt="전자공고">전자공고</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="경영정보">경영정보</a>
+                                    <ul>
+                                        <li><a href="#" alt="지배구조">지배구조</a></li>
+                                        <li><a href="#" alt="주주">주주</a></li>
+                                        <li><a href="#" alt="정관">정관</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="재무정보">재무정보</a>
+                                    <ul>
+                                        <li><a href="#" alt="요약재무표">요약재무표</a></li>
+                                        <li><a href="#" alt="신용등급">신용등급</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="IR자료실">IR자료실</a>
+                                    <ul>
+                                        <li><a href="#" alt="정기보고서">정기보고서</a></li>
+                                        <li><a href="#" alt="실적발표회">실적발표회</a></li>
+                                        <li><a href="#" alt="IR활동">IR활동</a></li>
+                                        <li><a href="#" alt="Annual Report">Anuual Report</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="gnb_a">
+                            <a href="#" alt="인재채용">인재채용</a>
+                            <ul class="sub">
+                                <li class="sub-title"><a href="#" alt="채용가이드">채용가이드</a>
+                                    <ul>
+                                        <li><a href="#" alt="인재상">인재상</a></li>
+                                        <li><a href="#" alt="채용전형">채용전형</a></li>
+                                        <li><a href="#" alt="업무소개">업무소개</a></li>
+                                        <li><a href="#" alt="문의하기">문의하기</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="입사지원">입사지원</a>
+                                    <ul>
+                                        <li><a href="#" alt="신입사원">신입사원</a></li>
+                                        <li><a href="#" alt="경력사원">경력사원</a></li>
+                                        <li><a href="#" alt="시간선택제 일자리">시간선택제 일자리</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="제도소개">제도소개</a>
+                                    <ul>
+                                        <li><a href="#" alt="인사제도">인사제도</a></li>
+                                        <li><a href="#" alt="복리후생">복리후생</a></li>
+                                        <li><a href="#" alt="인재양성">인재양성</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="gnb_a">
+                            <a href="sub3_news.html" alt="홍보센터">홍보센터</a>
+                            <ul class="sub">
+                                <li class="sub-title"><a href="sub3_news.html" alt="뉴스센터">뉴스센터</a>
+                                    <ul>
+                                        <li><a href="sub3_news.html" alt="보도자료">보도자료</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="홍보자료실">홍보자료실</a>
+                                    <ul>
+                                        <li><a href="#" alt="쇠부리토크">쇠부리토크</a></li>
+                                        <li><a href="#" alt="푸른 연금술사">푸른 연금술사</a></li>
+                                        <li><a href="#" alt="TV광고/홍보영상">TV광고/홍보영상</a></li>
+                                        <li><a href="#" alt="인쇄광고">인쇄광고</a></li>
+                                        <li><a href="#" alt="브로슈어">브로슈어</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="스포츠단">스포츠단</a></li>
+                                <li class="sub-title"><a href="#" alt="견학신청">견학신청</a></li>
+                            </ul>
+                        </li>
+                        <li class="gnb_a">
+                            <a href="#" alt="지속가능">지속가능</a>
+                            <ul class="sub">
+                                <li class="sub-title"><a href="#" alt="지속가능경영">지속가능경영</a>
+                                    <ul>
+                                        <li><a href="#" alt="지속가능경영 전략">지속가능경영 전략</a></li>
+                                        <li><a href="#" alt="지속가능경영 정책">지속가능경영 정책</a></li>
+                                        <li><a href="#" alt="통합보고서">통합보고서</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="사회공헌">사회공헌</a>
+                                    <ul>
+                                        <li><a href="#" alt="사회공헌 소개">사회공헌 소개</a></li>
+                                        <li><a href="#" alt="주요활동">주요활동</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="신뢰경영">신뢰경영</a>
+                                    <ul>
+                                        <li><a href="#" alt="윤리경영">윤리경영</a></li>
+                                        <li><a href="#" alt="공정거래">공정거래</a></li>
+                                        <li><a href="#" alt="사이버 감사실">사이버 감사실</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="동반성장">동반성장</a>
+                                    <ul>
+                                        <li><a href="#" alt="동반성장 소개">동반성장 소개</a></li>
+                                        <li><a href="#" alt="동반성장 Vison 및 가치">동반성장 Vison 및 가치</a></li>
+                                        <li><a href="#" alt="동반성장 연혁">동반성장 연혁</a></li>
+                                        <li><a href="#" alt="협력사 행동규범">협력사 행동규범</a></li>
+                                        <li><a href="#" alt="공정위 4대 실천사항">공정위 4대 실천사항</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="지원프로그램">지원프로그램</a>
+                                    <ul>
+                                        <li><a href="#" alt="자금지원">자금지원</a></li>
+                                        <li><a href="#" alt="기술지원"></a>기술지원</li>
+                                        <li><a href="#" alt="경영지원">경영지원</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-title"><a href="#" alt="소통 및 채널">소통 및 채널</a>
+                                    <ul>
+                                        <li><a href="#" alt="소통">소통</a></li>
+                                        <li><a href="#" alt="채널">채널</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+        <!-- //header -->
+
+        <section id="subvisual" class="visual2">
+            <div class="text">
+                <h2>제품기술</h2>
+                <p>미래를 여는 신기술, 새로운 철강시대를 이끌어갑니다</p>
+            </div>
+            
+            <div class="breadcrumb">
+            <ul>
+                <li><a href="#"><i class="xi-home-o"></i></a></li>
+                <li><a href="#">제품기술</a></li>
+                <li><i class="xi-angle-right-min"></i></li>
+                <li>
+                    <a href="#">제품소개</a>
+                    <ul class="subul">
+                        <li><a href="#">제품소개</a></li>
+                        <li><a href="#">R&amp;D</a></li>
+                        <li><a href="#">생산공정</a></li>
+                        <li><a href="#">제품 카탈로그</a></li>
+                    </ul>
+                </li>
+                <li><i class="xi-angle-right-min"></i></li>
+                <li>
+                    <a href="#">전략제품</a>
+                    <ul class="subul">
+                        <li><a href="#">제품군</a></li>
+                        <li><a href="#">전략제품</a></li>
+                        <li><a href="#">내진강재 브랜드 H CORE</a></li>
+                        <li><a href="#">자동차 솔루션 H-SOLUTION</a></li>
+                        <li><a href="#">인증현황</a></li>
+                        <li><a href="#">E-Business</a></li>
+                    </ul>
+                </li>
+                <li><i class="xi-angle-right-min"></i></li>
+                <li>
+                    <a href="#">자동차용 강판</a>
+                    <ul class="subul">
+                        <li><a href="#">자동차용 강판</a></li>
+                        <li><a href="#">초고강도 철근(SD600)</a></li>
+                        <li><a href="#">건축구조용 H형강(SHN)</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </section>
+        <!-- //section -->
+
+        <main id="container" class="bus-intro">
+            <section id="content">
+                <div class="inner">
+                    <div class="con-top">
+                        <h3 data-aos="fade-up" data-aos-duration="1000" >자동차용 강판</h3>
+                        <p  data-aos="fade-up" data-aos-anchor-placement="center-bottom" 
+                        data-aos-duration="1000" data-aos-delay="300">가볍고 안전한 차는 모든자동차 메이커의 최우선 과제입니다.<br>
+                        현대제철은 일반 강판보다 2배 이상 강도가 높아 10% 가량 중량 절감이 가능한<br>
+                        초고장력 강판을 개발, 가볍고 안전한 자동차를 만드는데 기여하고 있습니다.<br>
+                        또한 강도가 높아지는 만큼 단단해지는 철의 물성을 고려해<br>
+                        강도와 가공성을 동시에 확보하는 기술 개발에 주력하고 있습니다.</p>
+                    </div>
+
+                    <div class="con-box">
+                        <article class="pro trait">
+                            <h4 data-aos="fade-up"
+                            data-aos-anchor-placement="center-bottom" data-aos-duration="700">제품특성</h4>
+                            <ul class="pro1">
+                                <li class="box" data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom" data-aos-duration="600" data-aos-delay="300">
+                                    <div class="text">
+                                        <span>01</span>
+                                        <strong>자동차용 외판재</strong>
+                                        <ul>
+                                            <li>표면 품질 및 성형 수준이 높은 강판품질 요구</li>
+                                            <li>철저한 공정 및 품질 관리로 고가공성, 극저탄소, 고청정도 확보</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="box" data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom" data-aos-duration="600" data-aos-delay="400">
+                                    <div class="text" >
+                                        <span>02</span>
+                                        <strong>자동차용 초고장력강판</strong>
+                                        <ul>
+                                            <li>고강도·고형성의 기술 요구</li>
+                                            <li>신강종(TWIP강) 개발을 통한 가공의 한계 극복</li>
+                                            <li>신공법 핵심기술 개발을 통한 생산성 증대 및 신규 차종 적용 범위 확대</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </article>
+                        <article class="pro case">
+                            <h4 data-aos="fade-up"
+                            data-aos-anchor-placement="center-bottom" data-aos-duration="700">적용 사례</h4>
+                            <ul class="pro2">
+                                <li data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom" data-aos-duration="600" data-aos-delay="300">
+                                    <img src="images/sub2_case0.jpg" alt="자동차용 외판재">
+                                    <p>자동차용 외판재</p>
+                                </li>
+                                <li data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom" data-aos-duration="600" data-aos-delay="500">
+                                    <img src="images/sub2_case1.jpg" alt="초고장력강판1">
+                                    <p>초고장력강판1</p>
+                                </li>
+                                <li data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom" data-aos-duration="600" data-aos-delay="700">
+                                    <img src="images/sub2_case2.jpg" alt="초고장력강판2">
+                                    <p>초고장력강판2</p>
+                                </li>
+                            </ul>
+                        </article>
+                        <article class="pro tel">
+                            <h4 data-aos="fade-up"
+                            data-aos-anchor-placement="top-center" data-aos-duration="700">담당자 연락처</h4>
+                            <ul class="pro3">
+                                <li data-aos="fade-up"
+                                data-aos-anchor-placement="top-center" data-aos-duration="600" data-aos-delay="300">
+                                    <div class="left">
+                                        <em>자동차용 강판</em>
+                                        <span>미주유럽차강판수출팀</span>
+                                    </div>
+                                    <div class="right">
+                                        <strong>김환중</strong>
+                                        <span>책임매니저</span>
+                                        <dl>
+                                            <dt>TEL</dt>
+                                            <dd>02-2092-8060</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>FAX</dt>
+                                            <dd>02-2092-8590</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>E-mail</dt>
+                                            <dd>alexhjkim@hyundai-steel.com</dd>
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li data-aos="fade-up"
+                                data-aos-anchor-placement="top-center" data-aos-duration="600" data-aos-delay="400">
+                                    <div class="left">
+                                        <em>자동차용 강판</em>
+                                        <span>아시아차강판수출팀</span>
+                                    </div>
+                                    <div class="right">
+                                        <strong>구본원</strong>
+                                        <span>책임매니저</span>
+                                        <dl>
+                                            <dt>TEL</dt>
+                                            <dd>02-2092-8173</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>FAX</dt>
+                                            <dd>02-2092-8590</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>E-mail</dt>
+                                            <dd>acidcool@hyundai-steel.com</dd>
+                                        </dl>
+                                    </div>
+                                </li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- //MAIN -->
+
+        
+        <footer id="footer">
+            <div class="inner">
+                <h2><a href="#"><img src="images/logo.png" alt=""></a></h2>
+
+                <div class="family-site">
+                    <details>
+                        <summary>FAMILY SITE<i class="xi-angle-up"></i></summary>
+                        <ul class="site">
+                            <li>
+                                <strong>완성차</strong>
+                                <ul>
+                                    <li><a href="#">현대자동차</a></li>
+                                    <li><a href="#">기아자동차</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>철강</strong>
+                                <ul>
+                                    <li><a href="#">현대비엔지스틸</a></li>
+                                    <li><a href="#">현대종합특수강</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>건설</strong>
+                                <ul>
+                                    <li><a href="#">현대건설</a></li>
+                                    <li><a href="#">현대엔지니어링</a></li>
+                                    <li><a href="#">현대스틸산업</a></li>
+                                    <li><a href="#">현대도시개발</a></li>
+                                    <li><a href="#">현대종합설계</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>부품</strong>
+                                <ul>
+                                    <li><a href="#">현대모비스</a></li>
+                                    <li><a href="#">현대위아</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>금융</strong>
+                                <ul>
+                                    <li><a href="#">현대캐피탈</a></li>
+                                    <li><a href="#">현대카드</a></li>
+                                    <li><a href="#">현대차증권</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>기타</strong>
+                                <ul>
+                                    <li><a href="#">현대글로비스</a></li>
+                                    <li><a href="#">현대로템</a></li>
+                                    <li><a href="#">이노션</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </details>
+                </div>
+
+                <ul class="footul">
+                    <li><a href="#">개인정보 취급방침</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">영상정보처리기기 운영관리방침</a></li>
+                    <li><a href="#">사이버 감사실</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+                <div class="p">
+                    <p>서울특별시 서초구 헌릉로 12 현대기아차사옥 서관 현대제철</p>
+                    <p>대표전화 : 02-3464-6114 / FAX : 02-3464-6060</p>
+                </div>
+                <p class="copyright">COPYRIGHT(C) HYUNDAI STEEL. ALL RIGHTS RESERVED.</p>
+            </div>
+        </footer>
+        <!-- //FOOTER -->
+    </div>
+
+<!-- 맨끝 처리속도 -->
+<!-- 여기다 두는게 처리속도가 빠름 -->
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init(); </script>
+<!-- <script src="js/sub.js"></script> -->
+</body>
+
+</html>
