@@ -1,14 +1,28 @@
 /* 전체 페이지 공용 header/footer/container */
-#wrap{
+
+
+#wrap, #container, .inner{
     width: 100%;
-    min-width: 1600px;
+    max-width: 100%;
 }
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 .inner{
-    /* width: 1400px; */
     width: 100%;
-    max-width: 1920px;
-    margin: auto; position: relative; box-sizing: border-box;
+    max-width: 100%;
+    margin: auto; 
+    position: relative; 
+    box-sizing: border-box;
 }
+
+
 
 /* footer */
 
@@ -18,7 +32,9 @@
     background: #fefefe;
 }
 #footer .inner{
-    width: 1400px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
     height: 350px;
     padding-top: 80px;
 }
@@ -293,8 +309,7 @@
 /* visual */
 #mainVisual{
     width: 100%;
-    min-width: 1200px;
-    /* height: 1000px; */
+
     overflow: hidden;
     position: relative;
     background: #fff;
@@ -307,7 +322,7 @@
 #mainVisual video{
     width: 100%;
     overflow: hidden;
-    /* height: 1060px; */
+    height: auto;
     min-width: 1300px;
     margin: auto;
 }
@@ -324,6 +339,8 @@
 }
 #mainVisual #main-text strong{
     font-size: 60px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 #mainVisual #main-text strong em{
     font-family: 'S-CoreDream-7ExtraBold';
@@ -368,22 +385,17 @@
 }
 
 .product .con .mask ul{
-    /* display: flex;  */
     position: relative;
     top: 0; left: 0px;
-    /* background: pink; */
     display: block; 
     width: 12000px;
-    height: 590px;
-
-    transform: translate(-100px,0px);
-
-    /* 왜 이거 쓰면 txt 가려지지? */
     overflow: hidden;
+    /* width: 1800px; */
+    height: 590px;
+    transform: translate(-100px,0px);
 }
 
 .product .con .mask ul li{
-    /* width: 120rem;  */
     position: relative;
     float: left;
     height: 570px;
@@ -391,7 +403,8 @@
     opacity: .4;
     width: 1200px;
     top: 90px;
-    /* transition: .4s; */
+
+
 }
 .product .con .mask ul li.on{
     opacity: 1;
@@ -399,12 +412,11 @@
 }
 
 .product .con .mask ul li .img-box{
-    width: 120rem; 
+    
     position: relative;
     display: block;
     width: 100%; 
     height: 460px;
-    /* overflow: hidden; */
     box-shadow: 5px 5px 20px #9fa8b7;
 
 }
@@ -413,9 +425,7 @@
     left: 50%; top: 0;
     margin-left: -600px;
     width: 1200px;
-
     height: 100%;
-    /* height: 46rem; */
 
 }
 
@@ -906,10 +916,7 @@
     font-size: 20px;
 }
 
-#container{
-    height: 100%;
-}
-/* container */
+
 
 
 
